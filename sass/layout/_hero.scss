@@ -6,7 +6,7 @@
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #2F303A;
+    background-color: $bg-footer;
     outline: 1px solid black;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/hero.jpg');
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@
     margin-bottom: 30px;
     width: 696px;
     color: $bg-primary-color;
-    font-weight: 900;
+    $font-weight-main;
     font-size: 44px;
     line-height: calc(60/44);
     letter-spacing: 0.06em;

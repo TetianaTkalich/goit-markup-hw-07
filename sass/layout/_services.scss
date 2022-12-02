@@ -1,4 +1,4 @@
-.title-medium {
+.feature__title {
     margin-bottom: 10px;
 }
 
@@ -19,20 +19,18 @@
 }
 
 
-
-
-.title-medium,
+.feature__title,
 .name,
 .services {
     font-size: 14px;
     line-height: 1.2;
-    color: var(--title-text-color)
+    color: $title-text-color;
 }
 
 .text,
 .position,
 .types {
-    font-weight: 400;
+    $font-weight-contacts;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -40,7 +38,7 @@
 }
 
 .feature__thumb {
-    background-color: #F5F4FA;
+    background-color: $primary-white-color
     margin-bottom: 30px;
     align-items: center;
     width: 270px;

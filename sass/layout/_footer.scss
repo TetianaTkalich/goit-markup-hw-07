@@ -1,11 +1,11 @@
 .footer {
-    background-color: #2F303A;
+    background-color: $bg-footer;
     padding: 60px 0;
 }
 
 .adress {
     text-decoration: none;
-    font-weight: 400;
+    $font-weight-contacts;
     font-size: 14px;
     line-height: 1.7;
     color: $bg-primary-color;
@@ -31,7 +31,7 @@
 
     .link {
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
+    $font-weight-contacts;
     font-size: 14px;
     line-height: calc(24/14);
         }
@@ -39,7 +39,7 @@
 
 .footer-contacts .link {
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
+    $font-weight-contacts;
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
@@ -77,7 +77,7 @@
 }
 
 .social-link-footer {
-    color: var(--primary-white-color)
+    color: $primary-white-color
 }
 
 
@@ -101,13 +101,13 @@
 }
 
 .footer-contacts .address {
-    color: var(--secondary-white-color);
+    color: $secondary-white-color;
 
 }
 
 .footer-contacts .link:hover,
 .footer-contacts .link:focus {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .footer-contacts .item:not(:last-child) {
@@ -151,11 +151,11 @@
 
 .mail-holder:hover,
 .mail-holder:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
 }
 
 .subscribe-button {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30/16);
@@ -176,7 +176,7 @@
 .subscribe-button:hover,
 .subscribe-button:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     cursor: pointer;
 }
 

@@ -4,8 +4,8 @@
     line-height: calc(30/16);
     align-items: center;
     letter-spacing: 0.06em;
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
+    color: $primary-white-color;
+    background-color: $accent-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
@@ -14,7 +14,7 @@
 
 .button.title-button:focus,
 .button.title-button:hover {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
 }
 
 
@@ -24,8 +24,8 @@
     padding: 6px 22px;
     border: 0;
     cursor: pointer;
-    background-color: #F5F4FA;
-    color: var(--title-text-color);
+    background-color: $primary-white-color;
+    color: $title-text-color;
     font-weight: 500;
     line-height: calc(26/16);
     border-radius: 4px;
@@ -53,14 +53,14 @@
 
 .button.projects-button:focus,
 .button.projects-button:hover {
-    background-color: var(--accent-color);
-    color: var(--primary-white-color);
+    background-color: $accent-color;
+    color: $primary-white-color;
     /*filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
 }
 
 .button {
-    color: var(--title-text-color);
-    background-color: var(--secondary-white-color);
+    color: $title-text-color;
+    background-color: $secondary-white-color;
     font-size: 16px;
     font-family: inherit;
     cursor: pointer;
